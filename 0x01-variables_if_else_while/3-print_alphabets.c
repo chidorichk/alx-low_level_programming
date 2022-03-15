@@ -1,5 +1,3 @@
-
-0;136;0c#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
