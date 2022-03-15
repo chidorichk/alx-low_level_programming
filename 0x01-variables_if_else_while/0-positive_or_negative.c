@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 /*main: that function detect if a number is posive, negative or zero */
 /* betty style doc for function main goes there */
