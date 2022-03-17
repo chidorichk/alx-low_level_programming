@@ -3,10 +3,8 @@
 #include <stdio.h>
 
 /**
- *alphabet - print alphabet
- *Return:0
- *
- *
+ *print_alphabet - print alphabet
+ *Return: nothing
  */
 void print_alphabet(void)
 {
