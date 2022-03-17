@@ -4,6 +4,7 @@
 
 /**
  *_islower - check whether a letter is lower or not
+ *@c: parameter c allow to handle the character
  *Return: 1 or 0
  */
 
