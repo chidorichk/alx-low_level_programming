@@ -18,4 +18,5 @@ for (i = n; i <= 98; i++)
 	if (n != 98)
 	printf(", ");
 }
+	printf("\n");
 }
