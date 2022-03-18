@@ -23,7 +23,7 @@ printf(", ");
 }
 if ((i * j <= 9) && (i * j >= 6))
 {
-printf("");
+printf(" ");
 }
 }
 printf("\n");
