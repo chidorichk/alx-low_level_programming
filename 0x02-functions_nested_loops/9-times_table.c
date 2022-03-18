@@ -16,17 +16,17 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-printf("%d", i * j);
+_putchar( i * j + '0');
 if (j < 9)
 {
-printf(", ");
+_putchar(", ");
 }
 if ((i * (j + 1) <= 9))
 {
-printf(" ");
+_putchar(" ");
 }
 }
 if (i != 9)
-printf("\n");
+_putchar("\n");
 }
 }
