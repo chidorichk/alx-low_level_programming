@@ -12,15 +12,13 @@
 
 void print_times_table(int n)
 {
-	int row, column, product, tens, ones;
+	int row, column, product;
 
 	for (row = 0; row <= n; row++)
 	{
 		for (column = 0; column <= n; column++)
 		{
 			product = row * column;
-			tens = product / 10;
-			ones = product % 10;
 
 			if (column == 0)
 			{
