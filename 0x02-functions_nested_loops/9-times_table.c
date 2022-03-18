@@ -19,14 +19,15 @@ for (j = 0; j <= 9; j++)
 _putchar( i * j + '0');
 if (j < 9)
 {
-_putchar(", ");
+_putchar(',');
+_putchar(' ');
 }
 if ((i * (j + 1) <= 9))
 {
-_putchar(" ");
+_putchar(' ');
 }
 }
 if (i != 9)
-_putchar("\n");
+_putchar('\n');
 }
 }
