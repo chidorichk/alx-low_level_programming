@@ -17,9 +17,13 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 printf("%d", i * j);
- if (j < 9)
+if (j < 9)
 {
-printf(",  ");
+printf(", ");
+}
+if ((i * j <= 9) && (i * j >= 6))
+{
+printf("");
 }
 }
 printf("\n");
