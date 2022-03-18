@@ -30,14 +30,13 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(ones + '0');
+				printf("%d", product);
 			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(tens + '0');
-				_putchar(ones + '0');
+				printf("%d", product);
 			}
 		}
 		_putchar('\n');
