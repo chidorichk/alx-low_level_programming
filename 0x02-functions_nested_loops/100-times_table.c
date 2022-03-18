@@ -24,9 +24,10 @@ void print_times_table(int n)
 			{
 				_putchar('0');
 			}
-			else if (product < 10)
+			else if (row * (column + 1) < 10)
 			{
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(ones + '0');
