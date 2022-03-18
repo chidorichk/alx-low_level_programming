@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* natural -sum of multiple of  3 and 5
-*Return :sum
+*main -sum of multiple
+* of  3 and 5 below 1024
+*Return: Always 0 (Success)
 */
 
 int main(void)
