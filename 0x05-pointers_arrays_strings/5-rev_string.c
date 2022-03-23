@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*print_rev - set a variable to 98
+*rev_string - set a variable to 98
 *@s: paramater to swap
 *Return: length of string
 */
