@@ -10,17 +10,20 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *result = "";
-	int i = 0;
-	int j = 0;
+	int count = 0, count2 = 0;
 
-	for (; *(dest + i) != '\0'; i++)
+	while (*(dest + count) != '\0')
 	{
-	*(result + i) = *(dest + i);
+		count++;
 	}
-	for (j = 0; *(src + j) != '\0'; j++)
+
+	while (count2 >= 0)
 	{
-	*(result + i + 1 + j) = *(src + j);
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')
+			break;
+		count++;
+		count2++;
 	}
-	return (result);
+	return (dest);
 }
